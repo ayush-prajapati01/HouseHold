@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{  
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* heading starts*/
+
+.heading{
+    padding: 20px;
+}
+
+.navbar-brand{
+    margin: 2px 8px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-item{
+    margin: 2px 4px;
+    padding: 2px;
+}
+
+/* heading ends */
+
+/* main starts */
+
+.main{
+    margin:30px 60px;
+    padding: 30px 60px;
+}
+
+.main-banner{
+    height: 600px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.main-banner-image{
+    text-align: center;
+}
+
+.main-banner-content{
+    padding: 2px 12px;
+}
+
+.cat-heading{
+    text-align: center;
+}
+
+.adminheading{
+    padding: 5px;
+    text-align: center;
+}
+
+.categories{
+    margin: 20px;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.users{
+    margin: 5px;
+    padding: 5px;
+}
+/* main ends */
+
+.footer {
+    bottom: 0;
+    padding: 20px;
+    width: 100%;
+    background: linear-gradient(120deg,#5cb7f3, #c784eb);
+    color: black;
+    text-align: center;
+}
+
+.icons{
+    text-decoration: none;
+    padding: 2px;
+}
+
+.hire-content{
+    margin: 20px;
+    padding: 20px 40px;
+}
+
+.hire-cards{
+    margin: 10px 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 10px 20px;
+    padding: 10px;
+}
+
+.content{
+    text-align: center;
+}
+
+.buttonsx{
+    margin: 5px;
+    padding: 15px;
+}

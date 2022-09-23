@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./static/css/form-style.css">
+    <title>Admin Login | HouseHold</title>
+</head>
+
+<body>
+    <div class="center">
+      <h1>Admin Login</h1>
+      <form action="/adminlogin" method="POST">
+        <div class="txt_field">
+          <input type="text" required name="uname">
+          <span></span>
+          <label>Username</label>
+        </div>
+        <div class="txt_field">
+          <input type="password" required name="password"> 
+          <span></span>
+          <label>Password</label>
+        </div>
+
+        <input type="submit" value="Login">
+        <div class="signup_link">
+          Only For Admin
+        </div>
+      </form>
+    </div>
+</body>
+</html>

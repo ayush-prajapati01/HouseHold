@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up | HouseHold</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="./static/css/form-style.css">
+</head>
+<body>
+  <div class="center">
+    <h1>Sign Up</h1>
+    <form action="/register" method="POST">
+      <div class="txt_field">
+        <input type="text" required name="uname">
+        <span></span>
+        <label>Username</label>
+      </div>
+      <div class="txt_field">
+        <input type="text" required name="email">
+        <span></span>
+        <label>E-Mail</label>
+      </div>
+      <div class="txt_field">
+        <input type="password" required name="password">
+        <span></span>
+        <label>Password</label>
+      </div>
+      <input type="submit" value="Sign Up">
+      <div class="signup_link">
+        Already a member? <a href="/login">Sign In</a>
+      </div>
+    </form>
+  </div>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
